@@ -1,0 +1,932 @@
+# Logfile created on 2013-12-06 15:33:42 -0800 by logger.rb/36483
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : Starting the New Relic agent in "development" environment.
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : Reading configuration from 
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] ERROR : Unable to read configuration file : Is a directory - /usr/dev/workspace/makerparent
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : Enabling the Request Sampler.
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : Environment: development
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : Dispatcher: unicorn
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : Application: development
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : Installing ActiveRecord 4 instrumentation
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : Installing Net instrumentation
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : Installing deferred Rack instrumentation
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : Installing Unicorn instrumentation
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : Installing Rails 4 Controller instrumentation
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : Installing Rails 4 view instrumentation
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : Installing Rails4 Error instrumentation
+[12/06/13 15:33:42 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : Finished instrumentation
+[12/06/13 15:33:43 -0800 pivotal-guest-204.sf.pivotallabs.com (67062)] INFO : Doing deferred dependency-detection before Rack startup
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : Starting the New Relic agent in "development" environment.
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : Reading configuration from 
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] ERROR : Unable to read configuration file : Is a directory - /usr/dev/workspace/makerparent
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : Enabling the Request Sampler.
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : Environment: development
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : Dispatcher: unicorn
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : Application: development
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : Installing ActiveRecord 4 instrumentation
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : Installing Net instrumentation
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : Installing deferred Rack instrumentation
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : Installing Unicorn instrumentation
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : Installing Rails 4 Controller instrumentation
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : Installing Rails 4 view instrumentation
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : Installing Rails4 Error instrumentation
+[12/06/13 15:48:12 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : Finished instrumentation
+[12/06/13 15:48:13 -0800 pivotal-guest-204.sf.pivotallabs.com (67332)] INFO : Doing deferred dependency-detection before Rack startup
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : Starting the New Relic agent in "development" environment.
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : Reading configuration from 
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] ERROR : Unable to read configuration file : Is a directory - /usr/dev/workspace/makerparent
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : Enabling the Request Sampler.
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : Environment: development
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : Dispatcher: unicorn
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : Application: development
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : Installing ActiveRecord 4 instrumentation
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : Installing Net instrumentation
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : Installing deferred Rack instrumentation
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : Installing Unicorn instrumentation
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : Installing Rails 4 Controller instrumentation
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : Installing Rails 4 view instrumentation
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : Installing Rails4 Error instrumentation
+[12/06/13 16:36:15 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : Finished instrumentation
+[12/06/13 16:36:16 -0800 pivotal-guest-204.sf.pivotallabs.com (68280)] INFO : Doing deferred dependency-detection before Rack startup
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : Starting the New Relic agent in "development" environment.
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : Reading configuration from 
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] ERROR : Unable to read configuration file : Is a directory - /usr/dev/workspace/makerparent
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : Enabling the Request Sampler.
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : Environment: development
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : Dispatcher: unicorn
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : Application: development
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : Installing ActiveRecord 4 instrumentation
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : Installing Net instrumentation
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : Installing deferred Rack instrumentation
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : Installing Unicorn instrumentation
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : Installing Rails 4 Controller instrumentation
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : Installing Rails 4 view instrumentation
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : Installing Rails4 Error instrumentation
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : Finished instrumentation
+[12/06/13 16:46:51 -0800 pivotal-guest-204.sf.pivotallabs.com (68489)] INFO : Doing deferred dependency-detection before Rack startup
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : Starting the New Relic agent in "development" environment.
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : Reading configuration from 
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] ERROR : Unable to read configuration file : Is a directory - /usr/dev/workspace/makerparent
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : Enabling the Request Sampler.
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : Environment: development
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : Dispatcher: unicorn
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : Application: development
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : Installing ActiveRecord 4 instrumentation
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : Installing Net instrumentation
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : Installing deferred Rack instrumentation
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : Installing Unicorn instrumentation
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : Installing Rails 4 Controller instrumentation
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : Installing Rails 4 view instrumentation
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : Installing Rails4 Error instrumentation
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : Finished instrumentation
+[12/06/13 16:51:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68570)] INFO : Doing deferred dependency-detection before Rack startup
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : Starting the New Relic agent in "development" environment.
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : Reading configuration from 
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] ERROR : Unable to read configuration file : Is a directory - /usr/dev/workspace/makerparent
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : Enabling the Request Sampler.
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : Environment: development
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : Dispatcher: unicorn
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : Application: development
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : Installing ActiveRecord 4 instrumentation
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : Installing Net instrumentation
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : Installing deferred Rack instrumentation
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : Installing Unicorn instrumentation
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : Installing Rails 4 Controller instrumentation
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : Installing Rails 4 view instrumentation
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : Installing Rails4 Error instrumentation
+[12/06/13 16:59:18 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : Finished instrumentation
+[12/06/13 16:59:19 -0800 pivotal-guest-204.sf.pivotallabs.com (68742)] INFO : Doing deferred dependency-detection before Rack startup
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : Starting the New Relic agent in "development" environment.
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : Reading configuration from 
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] ERROR : Unable to read configuration file : Is a directory - /usr/dev/workspace/makerparent
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : Enabling the Request Sampler.
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : Environment: development
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : Dispatcher: unicorn
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : Application: development
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : Installing ActiveRecord 4 instrumentation
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : Installing Net instrumentation
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : Installing deferred Rack instrumentation
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : Installing Unicorn instrumentation
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : Installing Rails 4 Controller instrumentation
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : Installing Rails 4 view instrumentation
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : Installing Rails4 Error instrumentation
+[12/06/13 17:05:02 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : Finished instrumentation
+[12/06/13 17:05:03 -0800 pivotal-guest-204.sf.pivotallabs.com (68864)] INFO : Doing deferred dependency-detection before Rack startup
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : Starting the New Relic agent in "development" environment.
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : Reading configuration from 
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] ERROR : Unable to read configuration file : Is a directory - /usr/dev/workspace/makerparent
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : Enabling the Request Sampler.
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : Environment: development
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : Dispatcher: unicorn
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : Application: development
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : Installing ActiveRecord 4 instrumentation
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : Installing Net instrumentation
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : Installing deferred Rack instrumentation
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : Installing Unicorn instrumentation
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : Installing Rails 4 Controller instrumentation
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : Installing Rails 4 view instrumentation
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : Installing Rails4 Error instrumentation
+[12/06/13 17:06:39 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : Finished instrumentation
+[12/06/13 17:06:40 -0800 pivotal-guest-204.sf.pivotallabs.com (68903)] INFO : Doing deferred dependency-detection before Rack startup
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : Starting the New Relic agent in "development" environment.
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : Reading configuration from 
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] ERROR : Unable to read configuration file : Is a directory - /usr/dev/workspace/makerparent
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : Enabling the Request Sampler.
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : Environment: development
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : Dispatcher: unicorn
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : Application: development
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : Installing ActiveRecord 4 instrumentation
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : Installing Net instrumentation
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : Installing deferred Rack instrumentation
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : Installing Unicorn instrumentation
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : Installing Rails 4 Controller instrumentation
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : Installing Rails 4 view instrumentation
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : Installing Rails4 Error instrumentation
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : Finished instrumentation
+[12/06/13 17:08:27 -0800 pivotal-guest-204.sf.pivotallabs.com (68954)] INFO : Doing deferred dependency-detection before Rack startup
+[12/07/13 11:21:35 -0800 Jared-Cosulich.local (75468)] INFO : Starting the New Relic agent in "development" environment.
+[12/07/13 11:21:35 -0800 Jared-Cosulich.local (75468)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/07/13 11:21:35 -0800 Jared-Cosulich.local (75468)] INFO : Reading configuration from config/newrelic.yml
+[12/07/13 11:21:35 -0800 Jared-Cosulich.local (75468)] INFO : New Relic Agent Developer Mode enabled.
+[12/07/13 11:21:35 -0800 Jared-Cosulich.local (75468)] INFO : Enabling the Request Sampler.
+[12/07/13 11:21:35 -0800 Jared-Cosulich.local (75468)] INFO : Environment: development
+[12/07/13 11:21:35 -0800 Jared-Cosulich.local (75468)] INFO : Dispatcher: unicorn
+[12/07/13 11:21:35 -0800 Jared-Cosulich.local (75468)] INFO : Application: MakerParent
+[12/07/13 11:21:35 -0800 Jared-Cosulich.local (75468)] WARN : Agent configured not to send data in this environment.
+[12/07/13 11:21:36 -0800 Jared-Cosulich.local (75468)] INFO : Installing ActiveRecord 4 instrumentation
+[12/07/13 11:21:36 -0800 Jared-Cosulich.local (75468)] INFO : Installing Net instrumentation
+[12/07/13 11:21:36 -0800 Jared-Cosulich.local (75468)] INFO : Installing deferred Rack instrumentation
+[12/07/13 11:21:36 -0800 Jared-Cosulich.local (75468)] INFO : Installing Unicorn instrumentation
+[12/07/13 11:21:36 -0800 Jared-Cosulich.local (75468)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/07/13 11:21:36 -0800 Jared-Cosulich.local (75468)] INFO : Installing Rails 4 Controller instrumentation
+[12/07/13 11:21:36 -0800 Jared-Cosulich.local (75468)] INFO : Installing Rails 4 view instrumentation
+[12/07/13 11:21:36 -0800 Jared-Cosulich.local (75468)] INFO : Installing Rails4 Error instrumentation
+[12/07/13 11:21:36 -0800 Jared-Cosulich.local (75468)] INFO : Finished instrumentation
+[12/07/13 11:21:36 -0800 Jared-Cosulich.local (75468)] INFO : Doing deferred dependency-detection before Rack startup
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : Starting the New Relic agent in "development" environment.
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : Reading configuration from config/newrelic.yml
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : New Relic Agent Developer Mode enabled.
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : Enabling the Request Sampler.
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : Environment: development
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : Dispatcher: unicorn
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : Application: MakerParent
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] WARN : Agent configured not to send data in this environment.
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : Installing ActiveRecord 4 instrumentation
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : Installing Net instrumentation
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : Installing deferred Rack instrumentation
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : Installing Unicorn instrumentation
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : Installing Rails 4 Controller instrumentation
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : Installing Rails 4 view instrumentation
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : Installing Rails4 Error instrumentation
+[12/07/13 15:01:05 -0800 Jared-Cosulich.local (77561)] INFO : Finished instrumentation
+[12/07/13 15:01:06 -0800 Jared-Cosulich.local (77561)] INFO : Doing deferred dependency-detection before Rack startup
+[12/07/13 15:09:35 -0800 Jared-Cosulich.local (77768)] INFO : Starting the New Relic agent in "development" environment.
+[12/07/13 15:09:35 -0800 Jared-Cosulich.local (77768)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/07/13 15:09:35 -0800 Jared-Cosulich.local (77768)] INFO : Reading configuration from config/newrelic.yml
+[12/07/13 15:09:35 -0800 Jared-Cosulich.local (77768)] INFO : New Relic Agent Developer Mode enabled.
+[12/07/13 15:09:35 -0800 Jared-Cosulich.local (77768)] INFO : Enabling the Request Sampler.
+[12/07/13 15:09:35 -0800 Jared-Cosulich.local (77768)] INFO : Environment: development
+[12/07/13 15:09:35 -0800 Jared-Cosulich.local (77768)] INFO : Dispatcher: unicorn
+[12/07/13 15:09:35 -0800 Jared-Cosulich.local (77768)] INFO : Application: MakerParent
+[12/07/13 15:09:35 -0800 Jared-Cosulich.local (77768)] WARN : Agent configured not to send data in this environment.
+[12/07/13 15:09:36 -0800 Jared-Cosulich.local (77768)] INFO : Installing ActiveRecord 4 instrumentation
+[12/07/13 15:09:36 -0800 Jared-Cosulich.local (77768)] INFO : Installing Net instrumentation
+[12/07/13 15:09:36 -0800 Jared-Cosulich.local (77768)] INFO : Installing deferred Rack instrumentation
+[12/07/13 15:09:36 -0800 Jared-Cosulich.local (77768)] INFO : Installing Unicorn instrumentation
+[12/07/13 15:09:36 -0800 Jared-Cosulich.local (77768)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/07/13 15:09:36 -0800 Jared-Cosulich.local (77768)] INFO : Installing Rails 4 Controller instrumentation
+[12/07/13 15:09:36 -0800 Jared-Cosulich.local (77768)] INFO : Installing Rails 4 view instrumentation
+[12/07/13 15:09:36 -0800 Jared-Cosulich.local (77768)] INFO : Installing Rails4 Error instrumentation
+[12/07/13 15:09:36 -0800 Jared-Cosulich.local (77768)] INFO : Finished instrumentation
+[12/07/13 15:09:36 -0800 Jared-Cosulich.local (77768)] INFO : Doing deferred dependency-detection before Rack startup
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : Starting the New Relic agent in "development" environment.
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : Reading configuration from config/newrelic.yml
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : New Relic Agent Developer Mode enabled.
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : Enabling the Request Sampler.
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : Environment: development
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : Dispatcher: unicorn
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : Application: MakerParent
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] WARN : Agent configured not to send data in this environment.
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : Installing ActiveRecord 4 instrumentation
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : Installing Net instrumentation
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : Installing deferred Rack instrumentation
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : Installing Unicorn instrumentation
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : Installing Rails 4 Controller instrumentation
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : Installing Rails 4 view instrumentation
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : Installing Rails4 Error instrumentation
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : Finished instrumentation
+[12/07/13 15:11:19 -0800 Jared-Cosulich.local (77811)] INFO : Doing deferred dependency-detection before Rack startup
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : Starting the New Relic agent in "development" environment.
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : Reading configuration from config/newrelic.yml
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : New Relic Agent Developer Mode enabled.
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : Enabling the Request Sampler.
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : Environment: development
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : Dispatcher: unicorn
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : Application: MakerParent
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] WARN : Agent configured not to send data in this environment.
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : Installing ActiveRecord 4 instrumentation
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : Installing Net instrumentation
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : Installing deferred Rack instrumentation
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : Installing Unicorn instrumentation
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : Installing Rails 4 Controller instrumentation
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : Installing Rails 4 view instrumentation
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : Installing Rails4 Error instrumentation
+[12/07/13 15:22:20 -0800 Jared-Cosulich.local (78032)] INFO : Finished instrumentation
+[12/07/13 15:22:21 -0800 Jared-Cosulich.local (78032)] INFO : Doing deferred dependency-detection before Rack startup
+[12/07/13 15:39:29 -0800 Jared-Cosulich.local (78425)] INFO : Starting the New Relic agent in "development" environment.
+[12/07/13 15:39:29 -0800 Jared-Cosulich.local (78425)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/07/13 15:39:29 -0800 Jared-Cosulich.local (78425)] INFO : Reading configuration from config/newrelic.yml
+[12/07/13 15:39:29 -0800 Jared-Cosulich.local (78425)] INFO : New Relic Agent Developer Mode enabled.
+[12/07/13 15:39:29 -0800 Jared-Cosulich.local (78425)] INFO : Enabling the Request Sampler.
+[12/07/13 15:39:29 -0800 Jared-Cosulich.local (78425)] INFO : Environment: development
+[12/07/13 15:39:29 -0800 Jared-Cosulich.local (78425)] INFO : Dispatcher: unicorn
+[12/07/13 15:39:29 -0800 Jared-Cosulich.local (78425)] INFO : Application: MakerParent
+[12/07/13 15:39:29 -0800 Jared-Cosulich.local (78425)] WARN : Agent configured not to send data in this environment.
+[12/07/13 15:39:30 -0800 Jared-Cosulich.local (78425)] INFO : Installing ActiveRecord 4 instrumentation
+[12/07/13 15:39:30 -0800 Jared-Cosulich.local (78425)] INFO : Installing Net instrumentation
+[12/07/13 15:39:30 -0800 Jared-Cosulich.local (78425)] INFO : Installing deferred Rack instrumentation
+[12/07/13 15:39:30 -0800 Jared-Cosulich.local (78425)] INFO : Installing Unicorn instrumentation
+[12/07/13 15:39:30 -0800 Jared-Cosulich.local (78425)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/07/13 15:39:30 -0800 Jared-Cosulich.local (78425)] INFO : Installing Rails 4 Controller instrumentation
+[12/07/13 15:39:30 -0800 Jared-Cosulich.local (78425)] INFO : Installing Rails 4 view instrumentation
+[12/07/13 15:39:30 -0800 Jared-Cosulich.local (78425)] INFO : Installing Rails4 Error instrumentation
+[12/07/13 15:39:30 -0800 Jared-Cosulich.local (78425)] INFO : Finished instrumentation
+[12/07/13 15:39:30 -0800 Jared-Cosulich.local (78425)] INFO : Doing deferred dependency-detection before Rack startup
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : Starting the New Relic agent in "development" environment.
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : Reading configuration from config/newrelic.yml
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : New Relic Agent Developer Mode enabled.
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : Enabling the Request Sampler.
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : Environment: development
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : Dispatcher: unicorn
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : Application: MakerParent
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] WARN : Agent configured not to send data in this environment.
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : Installing ActiveRecord 4 instrumentation
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : Installing Net instrumentation
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : Installing deferred Rack instrumentation
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : Installing Unicorn instrumentation
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : Installing Rails 4 Controller instrumentation
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : Installing Rails 4 view instrumentation
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : Installing Rails4 Error instrumentation
+[12/07/13 15:53:23 -0800 Jared-Cosulich.local (78689)] INFO : Finished instrumentation
+[12/07/13 15:53:24 -0800 Jared-Cosulich.local (78689)] INFO : Doing deferred dependency-detection before Rack startup
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : Starting the New Relic agent in "development" environment.
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : Reading configuration from config/newrelic.yml
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : New Relic Agent Developer Mode enabled.
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : Enabling the Request Sampler.
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : Environment: development
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : Dispatcher: unicorn
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : Application: MakerParent
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] WARN : Agent configured not to send data in this environment.
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : Installing ActiveRecord 4 instrumentation
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : Installing Net instrumentation
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : Installing deferred Rack instrumentation
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : Installing Unicorn instrumentation
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : Installing Rails 4 Controller instrumentation
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : Installing Rails 4 view instrumentation
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : Installing Rails4 Error instrumentation
+[12/08/13 16:15:07 -0800 Jared-Cosulich.local (1451)] INFO : Finished instrumentation
+[12/08/13 16:15:08 -0800 Jared-Cosulich.local (1451)] INFO : Doing deferred dependency-detection before Rack startup
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : Starting the New Relic agent in "development" environment.
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : Reading configuration from config/newrelic.yml
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : New Relic Agent Developer Mode enabled.
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : Enabling the Request Sampler.
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : Environment: development
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : Dispatcher: unicorn
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : Application: MakerParent
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] WARN : Agent configured not to send data in this environment.
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : Installing ActiveRecord 4 instrumentation
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : Installing Net instrumentation
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : Installing deferred Rack instrumentation
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : Installing Unicorn instrumentation
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : Installing Rails 4 Controller instrumentation
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : Installing Rails 4 view instrumentation
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : Installing Rails4 Error instrumentation
+[12/10/13 15:26:18 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : Finished instrumentation
+[12/10/13 15:26:19 -0800 pivotal-guest-321.sf.pivotallabs.com (27730)] INFO : Doing deferred dependency-detection before Rack startup
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : Starting the New Relic agent in "development" environment.
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : Reading configuration from config/newrelic.yml
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : New Relic Agent Developer Mode enabled.
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : Enabling the Request Sampler.
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : Environment: development
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : Dispatcher: unicorn
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : Application: MakerParent
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] WARN : Agent configured not to send data in this environment.
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : Installing ActiveRecord 4 instrumentation
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : Installing Net instrumentation
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : Installing deferred Rack instrumentation
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : Installing Unicorn instrumentation
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : Installing Rails 4 Controller instrumentation
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : Installing Rails 4 view instrumentation
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : Installing Rails4 Error instrumentation
+[12/10/13 15:27:00 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : Finished instrumentation
+[12/10/13 15:27:01 -0800 pivotal-guest-321.sf.pivotallabs.com (27752)] INFO : Doing deferred dependency-detection before Rack startup
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : Starting the New Relic agent in "development" environment.
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : Reading configuration from config/newrelic.yml
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : New Relic Agent Developer Mode enabled.
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : Enabling the Request Sampler.
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : Environment: development
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : Dispatcher: unicorn
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : Application: MakerParent
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] WARN : Agent configured not to send data in this environment.
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : Installing ActiveRecord 4 instrumentation
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : Installing Net instrumentation
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : Installing deferred Rack instrumentation
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : Installing Unicorn instrumentation
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : Installing Rails 4 Controller instrumentation
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : Installing Rails 4 view instrumentation
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : Installing Rails4 Error instrumentation
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : Finished instrumentation
+[12/10/13 21:12:56 -0800 Jared-Cosulich.local (29799)] INFO : Doing deferred dependency-detection before Rack startup
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : Starting the New Relic agent in "development" environment.
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : Reading configuration from config/newrelic.yml
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : New Relic Agent Developer Mode enabled.
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : Enabling the Request Sampler.
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : Environment: development
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : Dispatcher: unicorn
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : Application: MakerParent
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] WARN : Agent configured not to send data in this environment.
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : Installing ActiveRecord 4 instrumentation
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : Installing Net instrumentation
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : Installing deferred Rack instrumentation
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : Installing Unicorn instrumentation
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : Installing Rails 4 Controller instrumentation
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : Installing Rails 4 view instrumentation
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : Installing Rails4 Error instrumentation
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : Finished instrumentation
+[12/10/13 21:34:35 -0800 Jared-Cosulich.local (30275)] INFO : Doing deferred dependency-detection before Rack startup
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : Starting the New Relic agent in "development" environment.
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : Reading configuration from config/newrelic.yml
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : New Relic Agent Developer Mode enabled.
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : Enabling the Request Sampler.
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : Environment: development
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : Dispatcher: unicorn
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : Application: MakerParent
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] WARN : Agent configured not to send data in this environment.
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : Installing ActiveRecord 4 instrumentation
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : Installing Net instrumentation
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : Installing deferred Rack instrumentation
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : Installing Unicorn instrumentation
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : Installing Rails 4 Controller instrumentation
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : Installing Rails 4 view instrumentation
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : Installing Rails4 Error instrumentation
+[12/10/13 21:43:03 -0800 Jared-Cosulich.local (30446)] INFO : Finished instrumentation
+[12/10/13 21:43:04 -0800 Jared-Cosulich.local (30446)] INFO : Doing deferred dependency-detection before Rack startup
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : Starting the New Relic agent in "development" environment.
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : Reading configuration from config/newrelic.yml
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : New Relic Agent Developer Mode enabled.
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : Enabling the Request Sampler.
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : Environment: development
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : Dispatcher: unicorn
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : Application: MakerParent
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] WARN : Agent configured not to send data in this environment.
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : Installing ActiveRecord 4 instrumentation
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : Installing Net instrumentation
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : Installing deferred Rack instrumentation
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : Installing Unicorn instrumentation
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : Installing Rails 4 Controller instrumentation
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : Installing Rails 4 view instrumentation
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : Installing Rails4 Error instrumentation
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : Finished instrumentation
+[12/10/13 21:45:01 -0800 Jared-Cosulich.local (30493)] INFO : Doing deferred dependency-detection before Rack startup
+[12/11/13 08:21:02 -0800 Jared-Cosulich.local (31713)] INFO : Starting the New Relic agent in "development" environment.
+[12/11/13 08:21:02 -0800 Jared-Cosulich.local (31713)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/11/13 08:21:02 -0800 Jared-Cosulich.local (31713)] INFO : Reading configuration from config/newrelic.yml
+[12/11/13 08:21:02 -0800 Jared-Cosulich.local (31713)] INFO : New Relic Agent Developer Mode enabled.
+[12/11/13 08:21:02 -0800 Jared-Cosulich.local (31713)] INFO : Enabling the Request Sampler.
+[12/11/13 08:21:02 -0800 Jared-Cosulich.local (31713)] INFO : Environment: development
+[12/11/13 08:21:02 -0800 Jared-Cosulich.local (31713)] INFO : Dispatcher: unicorn
+[12/11/13 08:21:02 -0800 Jared-Cosulich.local (31713)] INFO : Application: MakerParent
+[12/11/13 08:21:02 -0800 Jared-Cosulich.local (31713)] WARN : Agent configured not to send data in this environment.
+[12/11/13 08:21:03 -0800 Jared-Cosulich.local (31713)] INFO : Installing ActiveRecord 4 instrumentation
+[12/11/13 08:21:03 -0800 Jared-Cosulich.local (31713)] INFO : Installing Net instrumentation
+[12/11/13 08:21:03 -0800 Jared-Cosulich.local (31713)] INFO : Installing deferred Rack instrumentation
+[12/11/13 08:21:03 -0800 Jared-Cosulich.local (31713)] INFO : Installing Unicorn instrumentation
+[12/11/13 08:21:03 -0800 Jared-Cosulich.local (31713)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/11/13 08:21:03 -0800 Jared-Cosulich.local (31713)] INFO : Installing Rails 4 Controller instrumentation
+[12/11/13 08:21:03 -0800 Jared-Cosulich.local (31713)] INFO : Installing Rails 4 view instrumentation
+[12/11/13 08:21:03 -0800 Jared-Cosulich.local (31713)] INFO : Installing Rails4 Error instrumentation
+[12/11/13 08:21:03 -0800 Jared-Cosulich.local (31713)] INFO : Finished instrumentation
+[12/11/13 08:21:03 -0800 Jared-Cosulich.local (31713)] INFO : Doing deferred dependency-detection before Rack startup
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : Starting the New Relic agent in "development" environment.
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : Reading configuration from config/newrelic.yml
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : New Relic Agent Developer Mode enabled.
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : Enabling the Request Sampler.
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : Environment: development
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : Dispatcher: unicorn
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : Application: MakerParent
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] WARN : Agent configured not to send data in this environment.
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : Installing ActiveRecord 4 instrumentation
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : Installing Net instrumentation
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : Installing deferred Rack instrumentation
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : Installing Unicorn instrumentation
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : Installing Rails 4 Controller instrumentation
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : Installing Rails 4 view instrumentation
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : Installing Rails4 Error instrumentation
+[12/11/13 08:32:13 -0800 Jared-Cosulich.local (31923)] INFO : Finished instrumentation
+[12/11/13 08:32:14 -0800 Jared-Cosulich.local (31923)] INFO : Doing deferred dependency-detection before Rack startup
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : Starting the New Relic agent in "development" environment.
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : Reading configuration from config/newrelic.yml
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : New Relic Agent Developer Mode enabled.
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : Enabling the Request Sampler.
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : Environment: development
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : Dispatcher: unicorn
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : Application: MakerParent
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] WARN : Agent configured not to send data in this environment.
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : Installing ActiveRecord 4 instrumentation
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : Installing Net instrumentation
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : Installing deferred Rack instrumentation
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : Installing Unicorn instrumentation
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : Installing Rails 4 Controller instrumentation
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : Installing Rails 4 view instrumentation
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : Installing Rails4 Error instrumentation
+[12/11/13 11:18:49 -0800 Jared-Cosulich.local (33450)] INFO : Finished instrumentation
+[12/11/13 11:18:50 -0800 Jared-Cosulich.local (33450)] INFO : Doing deferred dependency-detection before Rack startup
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : Starting the New Relic agent in "development" environment.
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : Reading configuration from config/newrelic.yml
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : New Relic Agent Developer Mode enabled.
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : Enabling the Request Sampler.
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : Environment: development
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : Dispatcher: unicorn
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : Application: MakerParent
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] WARN : Agent configured not to send data in this environment.
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : Installing ActiveRecord 4 instrumentation
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : Installing Net instrumentation
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : Installing deferred Rack instrumentation
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : Installing Unicorn instrumentation
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : Installing Rails 4 Controller instrumentation
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : Installing Rails 4 view instrumentation
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : Installing Rails4 Error instrumentation
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : Finished instrumentation
+[12/11/13 11:51:55 -0800 Jared-Cosulich.local (34049)] INFO : Doing deferred dependency-detection before Rack startup
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : Starting the New Relic agent in "development" environment.
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : Reading configuration from config/newrelic.yml
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : New Relic Agent Developer Mode enabled.
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : Enabling the Request Sampler.
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : Environment: development
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : No known dispatcher detected.
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : Application: MakerParent
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] WARN : Agent configured not to send data in this environment.
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : Installing ActiveRecord 4 instrumentation
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : Installing Net instrumentation
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : Installing deferred Rack instrumentation
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : Installing Unicorn instrumentation
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : Installing Rails 4 Controller instrumentation
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : Installing Rails 4 view instrumentation
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : Installing Rails4 Error instrumentation
+[12/11/13 14:23:08 -0800 Jared-Cosulich.local (35178)] INFO : Finished instrumentation
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : Starting the New Relic agent in "development" environment.
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : Reading configuration from config/newrelic.yml
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : New Relic Agent Developer Mode enabled.
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : Enabling the Request Sampler.
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : Environment: development
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : No known dispatcher detected.
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : Application: MakerParent
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] WARN : Agent configured not to send data in this environment.
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : Installing ActiveRecord 4 instrumentation
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : Installing Net instrumentation
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : Installing deferred Rack instrumentation
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : Installing Unicorn instrumentation
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : Installing Rails 4 Controller instrumentation
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : Installing Rails 4 view instrumentation
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : Installing Rails4 Error instrumentation
+[12/11/13 14:23:40 -0800 Jared-Cosulich.local (35194)] INFO : Finished instrumentation
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : Starting the New Relic agent in "development" environment.
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : Reading configuration from config/newrelic.yml
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : New Relic Agent Developer Mode enabled.
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : Enabling the Request Sampler.
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : Environment: development
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : Dispatcher: unicorn
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : Application: MakerParent
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] WARN : Agent configured not to send data in this environment.
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : Installing ActiveRecord 4 instrumentation
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : Installing Net instrumentation
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : Installing deferred Rack instrumentation
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : Installing Unicorn instrumentation
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : Installing Rails 4 Controller instrumentation
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : Installing Rails 4 view instrumentation
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : Installing Rails4 Error instrumentation
+[12/11/13 14:25:41 -0800 Jared-Cosulich.local (35235)] INFO : Finished instrumentation
+[12/11/13 14:25:42 -0800 Jared-Cosulich.local (35235)] INFO : Doing deferred dependency-detection before Rack startup
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : Starting the New Relic agent in "development" environment.
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : Reading configuration from config/newrelic.yml
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : New Relic Agent Developer Mode enabled.
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : Enabling the Request Sampler.
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : Environment: development
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : Dispatcher: unicorn
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : Application: MakerParent
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] WARN : Agent configured not to send data in this environment.
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : Installing ActiveRecord 4 instrumentation
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : Installing Net instrumentation
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : Installing deferred Rack instrumentation
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : Installing Unicorn instrumentation
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : Installing Rails 4 Controller instrumentation
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : Installing Rails 4 view instrumentation
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : Installing Rails4 Error instrumentation
+[12/11/13 14:26:10 -0800 Jared-Cosulich.local (35252)] INFO : Finished instrumentation
+[12/11/13 14:26:11 -0800 Jared-Cosulich.local (35252)] INFO : Doing deferred dependency-detection before Rack startup
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : Starting the New Relic agent in "development" environment.
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : Reading configuration from config/newrelic.yml
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : New Relic Agent Developer Mode enabled.
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : Enabling the Request Sampler.
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : Environment: development
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : Dispatcher: unicorn
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : Application: MakerParent
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] WARN : Agent configured not to send data in this environment.
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : Installing ActiveRecord 4 instrumentation
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : Installing Net instrumentation
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : Installing deferred Rack instrumentation
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : Installing Unicorn instrumentation
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : Installing Rails 4 Controller instrumentation
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : Installing Rails 4 view instrumentation
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : Installing Rails4 Error instrumentation
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : Finished instrumentation
+[12/11/13 19:24:33 -0800 Jared-Cosulich.local (35873)] INFO : Doing deferred dependency-detection before Rack startup
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : Starting the New Relic agent in "development" environment.
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : Reading configuration from config/newrelic.yml
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : New Relic Agent Developer Mode enabled.
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : Enabling the Request Sampler.
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : Environment: development
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : Dispatcher: unicorn
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : Application: MakerParent
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] WARN : Agent configured not to send data in this environment.
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : Installing ActiveRecord 4 instrumentation
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : Installing Net instrumentation
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : Installing deferred Rack instrumentation
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : Installing Unicorn instrumentation
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : Installing Rails 4 Controller instrumentation
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : Installing Rails 4 view instrumentation
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : Installing Rails4 Error instrumentation
+[12/12/13 09:40:43 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : Finished instrumentation
+[12/12/13 09:40:44 -0800 pivotal-guest-347.sf.pivotallabs.com (41201)] INFO : Doing deferred dependency-detection before Rack startup
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : Starting the New Relic agent in "development" environment.
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : Reading configuration from config/newrelic.yml
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : New Relic Agent Developer Mode enabled.
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : Enabling the Request Sampler.
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : Environment: development
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : Dispatcher: unicorn
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : Application: MakerParent
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] WARN : Agent configured not to send data in this environment.
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : Installing ActiveRecord 4 instrumentation
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : Installing Net instrumentation
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : Installing deferred Rack instrumentation
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : Installing Unicorn instrumentation
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : Installing Rails 4 Controller instrumentation
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : Installing Rails 4 view instrumentation
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : Installing Rails4 Error instrumentation
+[12/12/13 09:59:35 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : Finished instrumentation
+[12/12/13 09:59:36 -0800 pivotal-guest-347.sf.pivotallabs.com (41597)] INFO : Doing deferred dependency-detection before Rack startup
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : Starting the New Relic agent in "development" environment.
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : Reading configuration from config/newrelic.yml
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : New Relic Agent Developer Mode enabled.
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : Enabling the Request Sampler.
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : Environment: development
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : Dispatcher: unicorn
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : Application: MakerParent
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] WARN : Agent configured not to send data in this environment.
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : Installing ActiveRecord 4 instrumentation
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : Installing Net instrumentation
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : Installing deferred Rack instrumentation
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : Installing Unicorn instrumentation
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : Installing Rails 4 Controller instrumentation
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : Installing Rails 4 view instrumentation
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : Installing Rails4 Error instrumentation
+[12/12/13 14:12:08 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : Finished instrumentation
+[12/12/13 14:12:09 -0800 pivotal-guest-347.sf.pivotallabs.com (42723)] INFO : Doing deferred dependency-detection before Rack startup
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : Starting the New Relic agent in "development" environment.
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : Reading configuration from config/newrelic.yml
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : New Relic Agent Developer Mode enabled.
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : Enabling the Request Sampler.
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : Environment: development
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : Dispatcher: unicorn
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : Application: MakerParent
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] WARN : Agent configured not to send data in this environment.
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : Installing ActiveRecord 4 instrumentation
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : Installing Net instrumentation
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : Installing deferred Rack instrumentation
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : Installing Unicorn instrumentation
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : Installing Rails 4 Controller instrumentation
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : Installing Rails 4 view instrumentation
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : Installing Rails4 Error instrumentation
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : Finished instrumentation
+[12/12/13 14:19:22 -0800 pivotal-guest-347.sf.pivotallabs.com (42878)] INFO : Doing deferred dependency-detection before Rack startup
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : Starting the New Relic agent in "development" environment.
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : Reading configuration from config/newrelic.yml
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : New Relic Agent Developer Mode enabled.
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : Enabling the Request Sampler.
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : Environment: development
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : Dispatcher: unicorn
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : Application: MakerParent
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] WARN : Agent configured not to send data in this environment.
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : Installing ActiveRecord 4 instrumentation
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : Installing Net instrumentation
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : Installing deferred Rack instrumentation
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : Installing Unicorn instrumentation
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : Installing Rails 4 Controller instrumentation
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : Installing Rails 4 view instrumentation
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : Installing Rails4 Error instrumentation
+[12/12/13 15:10:32 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : Finished instrumentation
+[12/12/13 15:10:33 -0800 pivotal-guest-347.sf.pivotallabs.com (44171)] INFO : Doing deferred dependency-detection before Rack startup
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : Starting the New Relic agent in "development" environment.
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : Reading configuration from config/newrelic.yml
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : New Relic Agent Developer Mode enabled.
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : Enabling the Request Sampler.
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : Environment: development
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : Dispatcher: unicorn
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : Application: MakerParent
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] WARN : Agent configured not to send data in this environment.
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : Installing ActiveRecord 4 instrumentation
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : Installing Net instrumentation
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : Installing deferred Rack instrumentation
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : Installing Unicorn instrumentation
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : Installing Rails 4 Controller instrumentation
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : Installing Rails 4 view instrumentation
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : Installing Rails4 Error instrumentation
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : Finished instrumentation
+[12/12/13 15:16:45 -0800 pivotal-guest-347.sf.pivotallabs.com (44316)] INFO : Doing deferred dependency-detection before Rack startup
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : Starting the New Relic agent in "development" environment.
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : Reading configuration from config/newrelic.yml
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : New Relic Agent Developer Mode enabled.
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : Enabling the Request Sampler.
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : Environment: development
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : Dispatcher: unicorn
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : Application: MakerParent
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] WARN : Agent configured not to send data in this environment.
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : Installing ActiveRecord 4 instrumentation
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : Installing Net instrumentation
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : Installing deferred Rack instrumentation
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : Installing Unicorn instrumentation
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : Installing Rails 4 Controller instrumentation
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : Installing Rails 4 view instrumentation
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : Installing Rails4 Error instrumentation
+[12/12/13 15:36:53 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : Finished instrumentation
+[12/12/13 15:36:54 -0800 pivotal-guest-347.sf.pivotallabs.com (44776)] INFO : Doing deferred dependency-detection before Rack startup
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : Starting the New Relic agent in "development" environment.
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : Reading configuration from config/newrelic.yml
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : New Relic Agent Developer Mode enabled.
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : Enabling the Request Sampler.
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : Environment: development
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : Dispatcher: unicorn
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : Application: MakerParent
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] WARN : Agent configured not to send data in this environment.
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : Installing ActiveRecord 4 instrumentation
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : Installing Net instrumentation
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : Installing deferred Rack instrumentation
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : Installing Unicorn instrumentation
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : Installing Rails 4 Controller instrumentation
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : Installing Rails 4 view instrumentation
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : Installing Rails4 Error instrumentation
+[12/12/13 15:52:33 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : Finished instrumentation
+[12/12/13 15:52:34 -0800 pivotal-guest-347.sf.pivotallabs.com (45103)] INFO : Doing deferred dependency-detection before Rack startup
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : Starting the New Relic agent in "development" environment.
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : Reading configuration from config/newrelic.yml
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : New Relic Agent Developer Mode enabled.
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : Enabling the Request Sampler.
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : Environment: development
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : Dispatcher: unicorn
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : Application: MakerParent
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] WARN : Agent configured not to send data in this environment.
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : Installing ActiveRecord 4 instrumentation
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : Installing Net instrumentation
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : Installing deferred Rack instrumentation
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : Installing Unicorn instrumentation
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : Installing Rails 4 Controller instrumentation
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : Installing Rails 4 view instrumentation
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : Installing Rails4 Error instrumentation
+[12/12/13 15:56:40 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : Finished instrumentation
+[12/12/13 15:56:41 -0800 pivotal-guest-347.sf.pivotallabs.com (45201)] INFO : Doing deferred dependency-detection before Rack startup
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : Starting the New Relic agent in "development" environment.
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : Reading configuration from config/newrelic.yml
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : New Relic Agent Developer Mode enabled.
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : Enabling the Request Sampler.
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : Environment: development
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : Dispatcher: unicorn
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : Application: MakerParent
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] WARN : Agent configured not to send data in this environment.
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : Installing ActiveRecord 4 instrumentation
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : Installing Net instrumentation
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : Installing deferred Rack instrumentation
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : Installing Unicorn instrumentation
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : Installing Rails 4 Controller instrumentation
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : Installing Rails 4 view instrumentation
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : Installing Rails4 Error instrumentation
+[12/17/13 10:39:07 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : Finished instrumentation
+[12/17/13 10:39:08 -0800 pivotal-guest-347.sf.pivotallabs.com (89302)] INFO : Doing deferred dependency-detection before Rack startup
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : Starting the New Relic agent in "development" environment.
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : Reading configuration from config/newrelic.yml
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : New Relic Agent Developer Mode enabled.
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : Enabling the Request Sampler.
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : Environment: development
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : Dispatcher: unicorn
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : Application: MakerParent
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] WARN : Agent configured not to send data in this environment.
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : Installing ActiveRecord 4 instrumentation
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : Installing Net instrumentation
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : Installing deferred Rack instrumentation
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : Installing Unicorn instrumentation
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : Installing Rails 4 Controller instrumentation
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : Installing Rails 4 view instrumentation
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : Installing Rails4 Error instrumentation
+[01/10/14 13:51:08 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : Finished instrumentation
+[01/10/14 13:51:09 -0800 pivotal-guest-322.sf.pivotallabs.com (22903)] INFO : Doing deferred dependency-detection before Rack startup
+[01/10/14 13:55:35 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : Starting the New Relic agent in "development" environment.
+[01/10/14 13:55:35 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[01/10/14 13:55:35 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : Reading configuration from config/newrelic.yml
+[01/10/14 13:55:35 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : New Relic Agent Developer Mode enabled.
+[01/10/14 13:55:35 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : Enabling the Request Sampler.
+[01/10/14 13:55:35 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : Environment: development
+[01/10/14 13:55:35 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : Dispatcher: unicorn
+[01/10/14 13:55:35 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : Application: MakerParent
+[01/10/14 13:55:35 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] WARN : Agent configured not to send data in this environment.
+[01/10/14 13:55:36 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : Installing ActiveRecord 4 instrumentation
+[01/10/14 13:55:36 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : Installing Net instrumentation
+[01/10/14 13:55:36 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : Installing deferred Rack instrumentation
+[01/10/14 13:55:36 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : Installing Unicorn instrumentation
+[01/10/14 13:55:36 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[01/10/14 13:55:36 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : Installing Rails 4 Controller instrumentation
+[01/10/14 13:55:36 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : Installing Rails 4 view instrumentation
+[01/10/14 13:55:36 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : Installing Rails4 Error instrumentation
+[01/10/14 13:55:36 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : Finished instrumentation
+[01/10/14 13:55:36 -0800 pivotal-guest-322.sf.pivotallabs.com (23013)] INFO : Doing deferred dependency-detection before Rack startup
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : Starting the New Relic agent in "development" environment.
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : Reading configuration from config/newrelic.yml
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : New Relic Agent Developer Mode enabled.
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : Enabling the Request Sampler.
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : Environment: development
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : Dispatcher: unicorn
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : Application: MakerParent
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] WARN : Agent configured not to send data in this environment.
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : Installing ActiveRecord 4 instrumentation
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : Installing Net instrumentation
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : Installing deferred Rack instrumentation
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : Installing Unicorn instrumentation
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : Installing Rails 4 Controller instrumentation
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : Installing Rails 4 view instrumentation
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : Installing Rails4 Error instrumentation
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : Finished instrumentation
+[01/12/14 16:37:14 -0800 Jared-Cosulich.local (47870)] INFO : Doing deferred dependency-detection before Rack startup
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Starting the New Relic agent in "development" environment.
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Reading configuration from config/newrelic.yml
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : New Relic Agent Developer Mode enabled.
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Enabling the Request Sampler.
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Environment: development
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Dispatcher: unicorn
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Application: MakerParent
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] WARN : Agent configured not to send data in this environment.
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Installing ActiveRecord 4 instrumentation
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Installing Net instrumentation
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Installing deferred Rack instrumentation
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Installing Unicorn instrumentation
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Installing Rails 4 Controller instrumentation
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Installing Rails 4 view instrumentation
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Installing Rails4 Error instrumentation
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Finished instrumentation
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Doing deferred dependency-detection before Rack startup
+[03/13/14 09:52:06 -0700 pivotal-guest-322.sf.pivotallabs.com (31296)] INFO : Installing middleware-based Excon instrumentation
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Starting the New Relic agent in "development" environment.
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Reading configuration from config/newrelic.yml
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : New Relic Agent Developer Mode enabled.
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Enabling the Request Sampler.
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Environment: development
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Dispatcher: unicorn
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Application: MakerParent
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] WARN : Agent configured not to send data in this environment.
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Installing ActiveRecord 4 instrumentation
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Installing Net instrumentation
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Installing deferred Rack instrumentation
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Installing Unicorn instrumentation
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Installing Rails 4 Controller instrumentation
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Installing Rails 4 view instrumentation
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Installing Rails4 Error instrumentation
+[03/13/14 09:54:02 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Finished instrumentation
+[03/13/14 09:54:03 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Doing deferred dependency-detection before Rack startup
+[03/13/14 09:54:03 -0700 pivotal-guest-322.sf.pivotallabs.com (31326)] INFO : Installing middleware-based Excon instrumentation
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : Starting the New Relic agent in "development" environment.
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : Reading configuration from config/newrelic.yml
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : New Relic Agent Developer Mode enabled.
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : Enabling the Request Sampler.
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : Environment: development
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : No known dispatcher detected.
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : Application: MakerParent
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] WARN : Agent configured not to send data in this environment.
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : Installing ActiveRecord 4 instrumentation
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : Installing Net instrumentation
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : Installing deferred Rack instrumentation
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : Installing Unicorn instrumentation
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : Installing Rails 4 Controller instrumentation
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : Installing Rails 4 view instrumentation
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : Installing Rails4 Error instrumentation
+[03/31/14 14:00:51 -0700 Jared-Cosulich.local (48203)] INFO : Finished instrumentation
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : Starting the New Relic agent in "development" environment.
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : Reading configuration from config/newrelic.yml
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : New Relic Agent Developer Mode enabled.
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : Enabling the Request Sampler.
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : Environment: development
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : Dispatcher: unicorn
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : Application: MakerParent
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] WARN : Agent configured not to send data in this environment.
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : Installing ActiveRecord 4 instrumentation
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : Installing Net instrumentation
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : Installing deferred Rack instrumentation
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : Installing Unicorn instrumentation
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : Installing Rails 4 Controller instrumentation
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : Installing Rails 4 view instrumentation
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : Installing Rails4 Error instrumentation
+[03/31/14 14:06:24 -0700 Jared-Cosulich.local (48245)] INFO : Finished instrumentation
+[03/31/14 14:06:25 -0700 Jared-Cosulich.local (48245)] INFO : Doing deferred dependency-detection before Rack startup
+[03/31/14 14:06:25 -0700 Jared-Cosulich.local (48245)] INFO : Installing middleware-based Excon instrumentation
