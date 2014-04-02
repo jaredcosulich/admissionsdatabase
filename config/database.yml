@@ -17,9 +17,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: makerparent_development
+  database: admissionsdatabase_development
   pool: 5
-  username: makerparent
+  username: admissionsdatabase
   password:
   host: localhost
 
@@ -47,17 +47,17 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: makerparent_test
+  database: admissionsdatabase_test
   pool: 5
-  username: makerparent
+  username: admissionsdatabase
   password:
   host: localhost
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: makerparent_production
+  database: admissionsdatabase_production
   pool: 5
-  username: makerparent
+  username: admissionsdatabase
   password:
   host: localhost
