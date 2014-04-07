@@ -11,5 +11,9 @@
   PointOfContactType.create(name: name)
 end
 
+['None', 'Email', 'Print'].each do |name|
+  NewsletterOption.create(name: name)
+end
+
 
 

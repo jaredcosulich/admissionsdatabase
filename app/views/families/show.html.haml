@@ -1,0 +1,27 @@
+%h2 Family
+
+%p
+  Parent 1: 
+  = @family.parent_1_name
+
+%p
+  Parent 2: 
+  = @family.parent_2_name  
+  
+%p
+  Newsletter: 
+  - if @family.newsletter_option.nil?
+    None
+  - else
+    = @family.newsletter_option.name
+    
+%p= link_to("Add a student", new_family_student_path(@family))
+
+%p= link_to("Add a referral source", new_family_referral_path(@family))
+
+%p= link_to("Add a point of contact (call, email, visit, etc.)", new_family_point_of_contact_path(@family))
+
+    
+    
+    
+    

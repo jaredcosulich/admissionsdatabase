@@ -19,7 +19,7 @@ class InitialTables < ActiveRecord::Migration
       t.integer   :address_id
       t.string    :parent_1_name
       t.string    :parent_2_name
-      t.string    :newsletter
+      t.integer   :newsletter_option_id
     end
     
     create_table :addresses do |t|
@@ -44,12 +44,16 @@ class InitialTables < ActiveRecord::Migration
     
     create_table  :point_of_contacts do |t|
       t.integer   :family_id
-      t.string    :type
+      t.integer   :point_of_contact_type_id
       t.date      :date
       t.string    :comments
     end
     
     create_table :point_of_contact_types do |t|
+      t.string :name
+    end
+    
+    create_table :newsletter_options do |t|
       t.string :name
     end
     

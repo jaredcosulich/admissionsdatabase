@@ -6,10 +6,22 @@
         - @point_of_contact.errors.full_messages.each do |msg|
           %li= msg
 
+  %br
+  %br
+  
+  .form-group
+    = f.label :type, "What family is making contact?"
+    = f.select :type, @families.map { |type| [family.name, type.id] }, {}, class: 'form-control'
+    = link_to "New Family", new_family_path
+
+  %br
+  %br
+
   .form-group
     = f.label :type, "What type of contact is this?"
     = f.select :type, @point_of_contact_types.map { |type| [type.name, type.id] }, {}, class: 'form-control'
 
+    
 -#
   .form-group
     = f.label :url, 'Website or Video Link'

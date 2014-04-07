@@ -35,7 +35,11 @@ ActiveRecord::Schema.define(version: 20131012215526) do
     t.integer "address_id"
     t.string  "parent_1_name"
     t.string  "parent_2_name"
-    t.string  "newsletter"
+    t.integer "newsletter_option_id"
+  end
+
+  create_table "newsletter_options", force: true do |t|
+    t.string "name"
   end
 
   create_table "point_of_contact_types", force: true do |t|
@@ -44,7 +48,7 @@ ActiveRecord::Schema.define(version: 20131012215526) do
 
   create_table "point_of_contacts", force: true do |t|
     t.integer "family_id"
-    t.string  "type"
+    t.integer "point_of_contact_type_id"
     t.date    "date"
     t.string  "comments"
   end
