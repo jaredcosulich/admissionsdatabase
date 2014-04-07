@@ -1,0 +1,62 @@
+= form_for [@family, @student] do |f|
+  - if @student.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@student.errors.count, "error")} prohibited this student from being saved:"
+      %ul
+        - @student.errors.full_messages.each do |msg|
+          %li= msg
+
+  %br
+  %br
+  
+  .form-group
+    = f.label :name
+    = f.text_field :name, class: 'form-control'
+
+  %br
+  %br
+
+  .form-group
+    = f.label :phone_number
+    = f.text_field :phone_number, class: 'form-control'
+
+  %br
+  %br
+
+  .form-group
+    = f.label :email
+    = f.text_field :email, class: 'form-control'
+
+  %br
+  %br
+
+  .form-group
+    = f.label :birthmonth
+    = f.date_select :birthmonth, {discard_day: true}, class: 'form-control'
+
+  %br
+  %br
+
+  .form-group
+    = f.label :graduated
+    = f.check_box :graduated, class: 'form-control'
+
+  %br
+  %br
+
+  .form-group
+    = f.label :graduation_date
+    = f.date_select :graduation_date, class: 'form-control'
+
+  %br
+  %br
+
+  .form-group
+    = f.label :comments
+    = f.text_area :comments, class: 'form-control'
+
+  %br
+  %br
+
+  .actions.form-group
+    = f.submit 'Save', class: 'btn btn-default'

@@ -11,7 +11,7 @@ class FamiliesController < ApplicationController
 
   # GET /families/new
   def new
-    @title = 'New Point Of Contact'
+    @title = 'New Family'
     @family = Family.new
     @newsletter_options = NewsletterOption.all  end
 
@@ -42,7 +42,7 @@ class FamiliesController < ApplicationController
   # DELETE /families/1
   def destroy
     @family.destroy
-    redirect_to families_url, notice: 'family was successfully destroyed.'
+    redirect_to families_url, notice: 'Family was successfully destroyed.'
   end
 
   private
