@@ -1,11 +1,27 @@
-%p= @student.name
+%p
+  Name:
+  = @student.name
 
-%p= @student.email
+%p
+  Email:
+  = @student.email
 
-%p= @student.phone_number
+%p
+  Phone Number:
+  = @student.phone_number
 
-%p= @student.birthmonth
+%p
+  Birth Month:
+  = @student.birthmonth
 
-%p= @student.graduated
+%p
+  Graduated?
+  = @student.graduated
+- if @student.graduated
+  %p
+    Graduation Date:
+    = @student.graduation_date
 
-%p= @student.graduation_date
+%p= link_to("Family: #{@family.name}", @family)
+
+%p= link_to("Edit Student Info", edit_family_student_path(@family, @student))

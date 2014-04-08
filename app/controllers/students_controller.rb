@@ -34,7 +34,7 @@ class StudentsController < ApplicationController
   # PATCH/PUT /students/1
   def update
     if @student.update(student_params)
-      redirect_to @student
+      redirect_to family_student_url(@family, @student)
     else
       render action: 'edit'
     end

@@ -19,6 +19,8 @@ class InitialTables < ActiveRecord::Migration
       t.integer   :address_id
       t.string    :parent_1_name
       t.string    :parent_2_name
+      t.string    :email
+      t.string    :phone_number
       t.integer   :newsletter_option_id
     end
     

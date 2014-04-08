@@ -1,0 +1,7 @@
+.family-listing{class: cycle("even", "odd")}
+  = "#{family.parent_1_name}, #{family.parent_2_name}"
+  - family.students.each do |student|
+    %br
+    = "#{student.name}, #{student.email}, #{student.phone_number}"
+  
+    

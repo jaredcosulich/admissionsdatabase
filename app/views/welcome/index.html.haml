@@ -1,11 +1,18 @@
-%h2 Admissions Database
-
 %br
 %br
 
-= link_to("New Point Of Contact", new_point_of_contact_path)
-
+%h3 
+  Find Family
+  
+%p= link_to("New Family", new_family_path)
+  
 %br
-%br
 
-= link_to("New Student", new_student_path)
+%h5 Search By Parent Names, Student Names, Phone Number, Email, etc.
+
+= text_field_tag("family_search")
+
+.family-listings
+  = render @families
+
+
