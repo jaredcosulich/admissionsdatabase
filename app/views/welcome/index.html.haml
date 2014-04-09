@@ -10,7 +10,7 @@
 
 %h5 Search By Parent Names, Student Names, Phone Number, Email, etc.
 
-= text_field_tag("family_search")
+= text_field_tag("family_search", nil, class: 'family-search')
 
 .family-listings
   = render @families
