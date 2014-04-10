@@ -1,0 +1,24 @@
+%p
+  Name:
+  = student.name
+
+%p
+  Email:
+  = student.email
+
+%p
+  Phone Number:
+  = student.phone_number
+
+%p
+  Birth Month:
+  = student.birthmonth
+
+%p
+  Graduated?
+  = student.graduated
+- if student.graduated
+  %p
+    Graduation Date:
+    = student.graduation_date
+

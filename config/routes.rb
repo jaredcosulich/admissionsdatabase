@@ -6,5 +6,7 @@ Admissionsdatabase::Application.routes.draw do
     resources :referrals
   end
   
+  resources :addresses
+  
   root 'welcome#index'
 end

@@ -1,0 +1,52 @@
+= form_for @address do |f|
+  - if @address.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@address.errors.count, "error")} prohibited this address from being saved:"
+      %ul
+        - @address.errors.full_messages.each do |msg|
+          %li= msg
+
+  = hidden_field_tag :family_id, params[:family_id]
+  = hidden_field_tag :student_id, params[:student_id]
+
+  %br
+  %br
+  
+  .form-group
+    = f.label :street1
+    = f.text_field :street1, class: 'form-control'
+
+  %br
+  %br
+
+  
+  .form-group
+    = f.label :street2
+    = f.text_field :street2, class: 'form-control'
+
+  %br
+  %br
+  
+  .form-group
+    = f.label :city
+    = f.text_field :city, class: 'form-control'
+
+  %br
+  %br
+  
+  .form-group
+    = f.label :state
+    = f.text_field :state, class: 'form-control'
+
+  %br
+  %br
+
+  .form-group
+    = f.label :zipcode
+    = f.text_field :zipcode, class: 'form-control'
+
+  %br
+  %br
+
+  .actions.form-group
+    = f.submit 'Save', class: 'btn btn-default'

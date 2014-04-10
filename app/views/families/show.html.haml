@@ -1,6 +1,13 @@
 %h3 Family
 
 %p
+  = link_to("Add a student", new_family_student_path(@family))
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  = link_to("Add a referral source", new_family_referral_path(@family))
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  = link_to("Add a point of contact (call, email, visit, etc.)", new_family_point_of_contact_path(@family))
+
+%p
   Parent 1: 
   = @family.parent_1_name
 
@@ -15,13 +22,15 @@
   - else
     = @family.newsletter_option.name
     
-%p= link_to("Add a student", new_family_student_path(@family))
+%br
 
-%p= link_to("Add a referral source", new_family_referral_path(@family))
-
-%p= link_to("Add a point of contact (call, email, visit, etc.)", new_family_point_of_contact_path(@family))
-
-    
+-if @family.students.length
+  
+  %h4 Students
+  
+  - @family.students.each do |student|
+    = render partial: 'students/info', locals: {student: student}
+    = link_to("Show Student", family_student_path(student, student.family))
     
     
     

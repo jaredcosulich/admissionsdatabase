@@ -1,27 +1,28 @@
-%p
-  Name:
-  = @student.name
+%h3 Student
 
 %p
-  Email:
-  = @student.email
+  = link_to("Edit Student Info", edit_family_student_path(@family, @student))
+  &nbsp; &nbsp; &nbsp; &nbsp; 
+  = link_to("Add/Edit Address", @student.address.present? ? @student.address : new_address_path(student_id: @student))
 
-%p
-  Phone Number:
-  = @student.phone_number
+%br
 
-%p
-  Birth Month:
-  = @student.birthmonth
+= render partial: 'students/info', locals: {student: @student}
 
-%p
-  Graduated?
-  = @student.graduated
-- if @student.graduated
-  %p
-    Graduation Date:
-    = @student.graduation_date
+%br
+%br
 
-%p= link_to("Family: #{@family.name}", @family)
+%h4 Family Info
+%p= @family.name
 
-%p= link_to("Edit Student Info", edit_family_student_path(@family, @student))
+- if @family.phone_number.present?
+  %p= @family.phone_number
+
+- if @family.email
+  %p= @family.email
+
+- if @family.address.present?
+  %p= @family.address.mail
+
+%p= link_to('Show Family', @family)
+
