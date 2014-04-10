@@ -24,11 +24,11 @@ class AddressesController < ApplicationController
     @address = Address.new(address_params)
     
     if @address.save
-      if params.include?(:student_id)
+      if params[:student_id].present?
         student = Student.find(params[:student_id])
         student.update_attributes(address_id: @address.id)
         redirect_to family_student_path(student.family, student)
-      elsif params.include?(:family_id)
+      elsif params[:family_id].present?
         family = Family.find(params[:family_id])
         family.update_attributes(address_id: @address.id)
         redirect_to family
@@ -41,7 +41,15 @@ class AddressesController < ApplicationController
   # PATCH/PUT /addresses/1
   def update
     if @address.update(address_params)
-      redirect_to @address
+      if params[:student_id].present?
+        student = Student.find(params[:student_id])
+        student.update_attributes(address_id: @address.id)
+        redirect_to family_student_path(student.family, student)
+      elsif params[:family_id].present?
+        family = Family.find(params[:family_id])
+        family.update_attributes(address_id: @address.id)
+        redirect_to family
+      end
     else
       render action: 'edit'
     end

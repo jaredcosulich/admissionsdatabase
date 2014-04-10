@@ -1,14 +1,12 @@
 %h4 Address
 
-= address.street1
-- if address.street2.present?
+%p
+  = address.street1
+  - if address.street2.present?
+    %br
+    = address.street2
   %br
-  = address.street2
-%br
-= [address.city, address.state, address.zipcode].compact.join(', ') 
+  = [address.city, address.state, address.zipcode].compact.join(', ') 
 
-%br
-%br
-= link_to("Edit Address", edit_address_path(address))
 
 

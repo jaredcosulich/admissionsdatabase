@@ -1,13 +1,6 @@
 %h3 Family
 
 %p
-  = link_to("Add a student", new_family_student_path(@family))
-  &nbsp; &nbsp; &nbsp; &nbsp;
-  = link_to("Add a referral source", new_family_referral_path(@family))
-  &nbsp; &nbsp; &nbsp; &nbsp;
-  = link_to("Add a point of contact (call, email, visit, etc.)", new_family_point_of_contact_path(@family))
-
-%p
   Parent 1: 
   = @family.parent_1_name
 
@@ -22,6 +15,21 @@
   - else
     = @family.newsletter_option.name
     
+%p
+  - unless @family.address.present?
+    = link_to("Add address", new_address_path(family_id: @family.id))
+    &nbsp; &nbsp; &nbsp;
+  = link_to("Add a student", new_family_student_path(@family))
+  &nbsp; &nbsp; &nbsp;
+  = link_to("Add a referral source", new_family_referral_path(@family))
+  &nbsp; &nbsp; &nbsp;
+  = link_to("Add a point of contact (call, email, visit, etc.)", new_family_point_of_contact_path(@family))
+
+- if @family.address.present?
+  %br
+  = render partial: 'addresses/info', locals: {address: @family.address}
+  %p= link_to("Edit address", edit_address_path(@family.address, family_id: @family.id))
+  
 %br
 
 -if @family.students.length
