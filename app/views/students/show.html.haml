@@ -3,11 +3,15 @@
 %p
   = link_to("Edit Student Info", edit_family_student_path(@family, @student))
   &nbsp; &nbsp; &nbsp; &nbsp; 
-  = link_to("Add/Edit Address", @student.address.present? ? @student.address : new_address_path(student_id: @student))
+  = link_to("Add/Edit Address", @student.address.present? ? edit_address_path(@student.address) : new_address_path(student_id: @student))
 
 %br
 
 = render partial: 'students/info', locals: {student: @student}
+
+- if @student.address
+  %br
+  = render partial: 'addresses/info', locals: {address: @student.address}
 
 %br
 %br
