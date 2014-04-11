@@ -29,12 +29,12 @@
 - if @family.referrals.present?
   %p
     Referral Sources: 
-    = @family.referrals.map { |r| r.referral_option.name }.join(', ')
+    = @family.referrals.map { |r| link_to(r.referral_option.name, edit_family_referral_path(@family, r)) }.join(', ')
 
 - if @family.point_of_contacts.present?
   %p
     Points Of Contact:
-    = @family.point_of_contacts.map { |r| r.point_of_contact_type.name }.join(', ')
+    = @family.point_of_contacts.map { |p| link_to(p.point_of_contact_type.name, edit_family_point_of_contact_path(@family, p), title: p.title) }.join(', ').html_safe
   
     
 %p

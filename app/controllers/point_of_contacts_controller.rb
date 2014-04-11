@@ -19,6 +19,7 @@ class PointOfContactsController < ApplicationController
 
   # GET /point_of_contacts/1/edit
   def edit
+    @point_of_contact_types = PointOfContactType.all
   end
 
   # POST /point_of_contacts
@@ -35,7 +36,7 @@ class PointOfContactsController < ApplicationController
   # PATCH/PUT /point_of_contacts/1
   def update
     if @point_of_contact.update(point_of_contact_params)
-      redirect_to @point_of_contact
+      redirect_to @family
     else
       render action: 'edit'
     end
