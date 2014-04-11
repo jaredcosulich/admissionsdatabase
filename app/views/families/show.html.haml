@@ -7,6 +7,17 @@
 %p
   Parent 2: 
   = @family.parent_2_name  
+
+- if @family.email.present?  
+  %p
+    Email:
+    = @family.email
+
+- if @family.phone_number.present?
+  %p
+    Phone Number:
+    = @family.phone_number
+  
   
 %p
   Newsletter: 
@@ -14,6 +25,10 @@
     None
   - else
     = @family.newsletter_option.name
+
+- if @family.referrals.present?
+  @family.referrals.map { |r| r.referral_option.name }.join(', ')
+  
     
 %p
   - unless @family.address.present?
@@ -32,10 +47,8 @@
   
 %br
 
--if @family.students.length
-  
+- if @family.students.present?  
   %h4 Students
-  
   - @family.students.each do |student|
     = render partial: 'students/info', locals: {student: student}
     = link_to("Show Student", family_student_path(student, student.family))

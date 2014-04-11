@@ -1,4 +1,6 @@
 class PointOfContactsController < ApplicationController
+  before_action :set_family
+  before_action :set_point_of_contact, only: [:show, :edit, :update, :destroy]
 
   # GET /point_of_contacts
   def index
@@ -25,7 +27,7 @@ class PointOfContactsController < ApplicationController
     @point_of_contact = PointOfContact.new(point_of_contact_params)
     
     if @point_of_contact.save
-      redirect_to point_of_contact_url(@point_of_contact)
+      redirect_to @family
     else
       render action: 'new'
     end
@@ -47,13 +49,17 @@ class PointOfContactsController < ApplicationController
   end
 
   private
+    def set_family
+      @family = Family.find(params[:family_id])
+    end
+  
     # Use callbacks to share common setup or constraints between actions.
     def set_point_of_contact
-      @point_of_contact = point_of_contact.find(params[:id])
+      @point_of_contact = @family.point_of_contacts.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
     def point_of_contact_params
-      params.require(:point_of_contact).permit(:title, :url, :description, :photo, :min_time, :max_time, :min_age, :max_age, :min_cost, :max_cost, :estimated_simple, :estimated_age, :estimated_cost, :estimated_time, :tumblr)
+      params.require(:point_of_contact).permit(:point_of_contact_type_id, :date, :comments)
     end
 end

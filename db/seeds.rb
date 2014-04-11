@@ -15,5 +15,12 @@ end
   NewsletterOption.create(name: name)
 end
 
+['None', 'KidFest'].each do |name|
+  ReferralOption.create(name: name)
+end
+
+Family.create(
+  parent_1_name: 'Moira Collins'
+)
 
 

@@ -55,6 +55,10 @@ ActiveRecord::Schema.define(version: 20131012215526) do
     t.string  "comments"
   end
 
+  create_table "referral_options", force: true do |t|
+    t.string "name"
+  end
+
   create_table "referrals", force: true do |t|
     t.integer "family_id"
     t.string  "type"

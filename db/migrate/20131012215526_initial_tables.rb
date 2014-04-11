@@ -58,6 +58,10 @@ class InitialTables < ActiveRecord::Migration
     create_table :newsletter_options do |t|
       t.string :name
     end
+
+    create_table :referral_options do |t|
+      t.string :name
+    end
     
   end
 end
