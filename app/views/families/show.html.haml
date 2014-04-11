@@ -27,7 +27,14 @@
     = @family.newsletter_option.name
 
 - if @family.referrals.present?
-  @family.referrals.map { |r| r.referral_option.name }.join(', ')
+  %p
+    Referral Sources: 
+    = @family.referrals.map { |r| r.referral_option.name }.join(', ')
+
+- if @family.point_of_contacts.present?
+  %p
+    Points Of Contact:
+    = @family.point_of_contacts.map { |r| r.point_of_contact_type.name }.join(', ')
   
     
 %p

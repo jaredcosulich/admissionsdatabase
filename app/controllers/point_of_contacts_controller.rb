@@ -15,7 +15,6 @@ class PointOfContactsController < ApplicationController
     @title = 'New Point Of Contact'
     @point_of_contact = PointOfContact.new
     @point_of_contact_types = PointOfContactType.all
-    @families = Family.all
   end
 
   # GET /point_of_contacts/1/edit
@@ -24,7 +23,7 @@ class PointOfContactsController < ApplicationController
 
   # POST /point_of_contacts
   def create
-    @point_of_contact = PointOfContact.new(point_of_contact_params)
+    @point_of_contact = @family.point_of_contacts.new(point_of_contact_params)
     
     if @point_of_contact.save
       redirect_to @family
