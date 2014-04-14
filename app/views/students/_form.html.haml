@@ -46,7 +46,7 @@
 
   .form-group
     = f.label :graduation_date
-    = f.date_select :graduation_date, class: 'form-control'
+    = f.date_select :graduation_date, {include_blank: true}, class: 'form-control'
 
   %br
   %br

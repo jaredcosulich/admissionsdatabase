@@ -38,7 +38,7 @@
   
     
 %p
-  = link_to("Edit Family", edit_family_path(student.family))
+  = link_to("Edit Family", edit_family_path(@family))
   &nbsp; &nbsp; &nbsp;
   - unless @family.address.present?
     = link_to("Add address", new_address_path(family_id: @family.id))
@@ -60,7 +60,7 @@
   %h4 Students
   - @family.students.each do |student|
     = render partial: 'students/info', locals: {student: student}
-    = link_to("Show Student", family_student_path(student.family, student))
+    = link_to("Show Student", family_student_path(@family, student))
     
     
     
