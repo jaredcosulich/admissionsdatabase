@@ -1,10 +1,12 @@
 Admissionsdatabase::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
-  config.middleware.insert_before(::Rack::Runtime, "::Rack::Auth::Basic", "production") do |u, p|
+  config.middleware.insert_before(::Rack::Runtime, "::Rack::Auth::Basic", "DVS Admissions Database") do |u, p|
+    success = false
     for user_password in ENV['USERS'].split(',').map { |user_info| user_info.split('/') }
-      [u, p] == user_password
+      success = true if [u, p] == user_password
     end
+    success
   end
 
   # Code is not reloaded between requests.

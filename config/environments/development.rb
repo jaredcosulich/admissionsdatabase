@@ -1,11 +1,13 @@
 Admissionsdatabase::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
-  # config.middleware.insert_before(::Rack::Runtime, "::Rack::Auth::Basic", "production") do |u, p|
-  #   for user_password in 'x/y,a/b,c/d'.split(',').map { |user_info| user_info.split('/') }
-  #     [u, p] == user_password
-  #   end
-  # end
+  config.middleware.insert_before(::Rack::Runtime, "::Rack::Auth::Basic", "DVS Admissions Database") do |u, p|
+    success = false
+    for user_password in 'x/y,a/b,c/d'.split(',').map { |user_info| user_info.split('/') }
+      success = true if [u, p] == user_password
+    end
+    success
+  end
 
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
