@@ -55,6 +55,6 @@ class FamiliesController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def family_params
-      params.require(:family).permit(:parent_1_name, :parent_2_name, :newsletter_option_id)
+      params.require(:family).permit(:parent_1_name, :parent_2_name, :phone_number, :newsletter_option_id)
     end
 end
