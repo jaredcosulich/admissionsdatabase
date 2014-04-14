@@ -1,0 +1,48 @@
+= form_for @family do |f|
+  - if @family.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@family.errors.count, "error")} prohibited this family from being saved:"
+      %ul
+        - @family.errors.full_messages.each do |msg|
+          %li= msg
+
+  %br
+  %br
+  
+  .form-group
+    = f.label :parent_1_name, "Name of one parent?"
+    = f.text_field :parent_1_name, class: 'form-control'
+
+  %br
+  %br
+
+  .form-group
+    = f.label :parent_2_name, "Name of other parent?"
+    = f.text_field :parent_2_name, class: 'form-control'
+    
+  %br
+  %br
+
+  .form-group
+    = f.label :phone_number
+    = f.text_field :phone_number, class: 'form-control'
+
+  %br
+  %br
+
+  .form-group
+    = f.label :email
+    = f.text_field :email, class: 'form-control'
+
+  %br
+  %br    
+
+  .form-group
+    = f.label :newsletter_option_id
+    = f.select :newsletter_option_id, @newsletter_options.map { |option| [option.name, option.id] }, {}, class: 'form-control'
+
+  %br
+  %br
+
+  .actions.form-group
+    = f.submit 'Save', class: 'btn btn-default'

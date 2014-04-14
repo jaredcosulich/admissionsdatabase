@@ -1,0 +1,12 @@
+%h4 Address
+
+%p
+  = address.street1
+  - if address.street2.present?
+    %br
+    = address.street2
+  %br
+  = [address.city, address.state, address.zipcode].compact.join(', ') 
+
+
+

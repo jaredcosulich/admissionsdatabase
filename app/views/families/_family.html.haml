@@ -1,0 +1,7 @@
+.family-listing{class: cycle("even", "odd")}
+  = link_to([family.parent_1_name, family.parent_2_name].join(', '), family)
+  - family.students.each do |student|
+    %br
+    = "#{student.name}, #{student.email}, #{student.phone_number}"
+  
+    

@@ -1,0 +1,36 @@
+%h3 Student
+
+%p
+  = link_to("Edit student", edit_family_student_path(@family, @student))
+  &nbsp; &nbsp; &nbsp; &nbsp; 
+  = link_to('Add address', new_address_path(student_id: @student.id))
+
+%br
+
+= render partial: 'students/info', locals: {student: @student}
+
+- if @student.address.present?
+  %br
+  = render partial: 'addresses/info', locals: {address: @student.address}
+  %p= link_to("Edit address", edit_address_path(@student.address, student_id: @student.id))
+
+%br
+%br
+%br
+
+%h4 Family Info
+%p= @family.name
+
+- if @family.phone_number.present?
+  %p= @family.phone_number
+
+- if @family.email
+  %p= @family.email
+
+- if @family.address.present?
+  %br
+  = render partial: 'addresses/info', locals: {address: @family.address}
+  %p= link_to("Edit address", edit_address_path(@family.address, family_id: @family.id))
+
+%p= link_to('Show Family', @family)
+

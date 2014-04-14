@@ -1,0 +1,28 @@
+= form_for [@family, @point_of_contact] do |f|
+  - if @point_of_contact.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@point_of_contact.errors.count, "error")} prohibited this point of contact from being saved:"
+      %ul
+        - @point_of_contact.errors.full_messages.each do |msg|
+          %li= msg
+
+  %br
+  %br
+  
+  .form-group
+    = f.label :point_of_contact_type_id, "How did this family make contact?"
+    = f.select :point_of_contact_type_id, @point_of_contact_types.map { |type| [type.name, type.id] }, {}, class: 'form-control'
+
+  %br
+  %br
+
+  .form-group
+    = f.label :date, "When did they make contact?"
+    = f.date_select :date, class: 'form-control'
+
+  %br
+  %br
+    
+  .actions.form-group
+    = f.submit 'Save', class: 'btn btn-default'
+    = link_to 'Cancel', @family, class: 'btn btn-default'

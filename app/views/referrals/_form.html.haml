@@ -1,0 +1,21 @@
+= form_for [@family, @referral] do |f|
+  - if @referral.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@referral.errors.count, "error")} prohibited this referral from being saved:"
+      %ul
+        - @referral.errors.full_messages.each do |msg|
+          %li= msg
+
+  %br
+  %br
+  
+  .form-group
+    = f.label :referral_option_id
+    = f.select :referral_option_id, @referral_options.map { |option| [option.name, option.id] }, {}, class: 'form-control'
+
+  %br
+  %br
+
+
+  .actions.form-group
+    = f.submit 'Save', class: 'btn btn-default'
