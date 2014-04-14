@@ -1,9 +1,11 @@
 Admissionsdatabase::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
-  # config.middleware.insert_after(::Rack::Lock, "::Rack::Auth::Basic", "Production") do |u, p|
-  #   [u, p] == ['username', 'password']
-  # end
+  config.middleware.insert_before(::Rack::Runtime, "::Rack::Auth::Basic", "production") do |u, p|
+    for user_password in ENV['USERS'].split(',').map { |user_info| user_info.split('/') }
+      [u, p] == user_password
+    end
+  end
 
   # Code is not reloaded between requests.
   config.cache_classes = true
