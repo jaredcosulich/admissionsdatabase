@@ -17,6 +17,7 @@ class FamiliesController < ApplicationController
 
   # GET /families/1/edit
   def edit
+    @newsletter_options = NewsletterOption.all  end
   end
 
   # POST /families
