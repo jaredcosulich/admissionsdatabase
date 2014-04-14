@@ -1,6 +1,10 @@
 Admissionsdatabase::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  config.middleware.insert_after(::Rack::Lock, "::Rack::Auth::Basic", "Production") do |u, p|
+    [u, p] == ['username', 'password']
+  end
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
@@ -77,5 +81,5 @@ Admissionsdatabase::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
-  
+    
 end
