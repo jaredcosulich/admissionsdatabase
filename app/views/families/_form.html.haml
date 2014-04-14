@@ -43,6 +43,13 @@
 
   %br
   %br
+  
+  .form-group
+    = f.label :comments
+    = f.text_area :comments, class: 'form-control'
+  
+  %br
+  %br
 
   .actions.form-group
     = f.submit 'Save', class: 'btn btn-default'
