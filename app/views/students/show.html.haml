@@ -1,13 +1,11 @@
 %h3 Student
 
+= render partial: 'students/info', locals: {student: @student}
+
 %p
   = link_to("Edit student", edit_family_student_path(@family, @student))
   &nbsp; &nbsp; &nbsp; &nbsp; 
   = link_to('Add address', new_address_path(student_id: @student.id))
-
-%br
-
-= render partial: 'students/info', locals: {student: @student}
 
 - if @student.address.present?
   %br
