@@ -14,11 +14,12 @@ class ReferralsController < ApplicationController
   def new
     @title = 'New Referral'
     @referral = @family.referrals.new
-    # @referral_options = ReferralOption.all  
+    @referral_options = ReferralOption.all  
   end
 
   # GET /referrals/1/edit
   def edit
+    @referral_options = ReferralOption.all  
   end
 
   # POST /referrals
