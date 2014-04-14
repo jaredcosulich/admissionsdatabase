@@ -13,11 +13,12 @@ class FamiliesController < ApplicationController
   def new
     @title = 'New Family'
     @family = Family.new
-    @newsletter_options = NewsletterOption.all  end
+    @newsletter_options = NewsletterOption.all  
+  end
 
   # GET /families/1/edit
   def edit
-    @newsletter_options = NewsletterOption.all  end
+    @newsletter_options = NewsletterOption.all
   end
 
   # POST /families
