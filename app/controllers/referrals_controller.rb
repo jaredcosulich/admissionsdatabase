@@ -24,7 +24,7 @@ class ReferralsController < ApplicationController
 
   # POST /referrals
   def create
-    @referral = @family.new_referrals.new(referral_params)
+    @referral = @family.referrals.new(referral_params)
     
     if @referral.save
       redirect_to @family
@@ -60,6 +60,6 @@ class ReferralsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def referral_params
-      params.require(:referral).permit(:referral_option_id)
+      params.require(:referral).permit(:referral_option_id, :comments)
     end
 end
