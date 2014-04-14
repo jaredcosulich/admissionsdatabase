@@ -3,30 +3,38 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 $( ->
-  ready = ->
+  ready = ->    
+    for familyListingElement in $('.family-listing')
+      familyListing = $(familyListingElement)
+      familyListing.data('html', familyListing.html().replace(/\r*\n*/ig, ''))
 
     $(".family-search").bind 'keydown', (e) ->
-      familyListings = $('.family-listings')
-      html = familyListings.html()
-      html = html.replace(/\r*\n*/ig, '')
-      html = html.replace(/\<span class=\"highlight\"\>([^<]*)\<\/span\>/ig, '$1')
-      familyListings.html(html)
+      for familyListingElement in $('.family-listing')
+        familyListing = $(familyListingElement)
+        familyListing.html(familyListing.data('html'))
 
     $(".family-search").bind 'keyup', (e) ->
       search = e.target.value
       if !search.length
         $('.family-listing').removeClass('no-search')
       else
-        for familyEntryElement in $('.family-listing')
-          familyEntry = $(familyEntryElement)
-          if familyEntry.html().indexOf(search) > -1
-            familyEntry.removeClass('no-search')
-            regex = new RegExp(search, 'g')
-            familyEntry.html(familyEntry.html().replace(regex, '<span class="highlight">' + search + '</span>'))
+        for familyListingElement in $('.family-listing')
+          familyListing = $(familyListingElement)
+          html = familyListing.data('html')
+          if html.toLowerCase().indexOf(search.toLowerCase()) > -1
+            familyListing.removeClass('no-search')
+            regex = new RegExp("(#{search})", 'ig')
+            familyListing.html(html.replace(regex, '<span class="highlight">$1</span>'))
           else
-            familyEntry.addClass('no-search')
-  
-  
+            familyListing.addClass('no-search')
+        bindListings()
+        
+    bindListings = ->      
+      $('.family-listing').bind 'click', (e) ->
+        window.location.href = '/families/' + $(e.target).data('family')
+      
+    bindListings()
+
   $(document).ready(ready)
   $(document).on('page:load', ready)
 
