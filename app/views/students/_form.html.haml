@@ -19,7 +19,7 @@
 
   .form-group
     = f.label :gender
-    = f.select :gender, ['male', 'female'], {}, class: 'form-control'
+    = f.select :gender, ['male', 'female'], {include_blank: true}, class: 'form-control'
 
 
   %br
