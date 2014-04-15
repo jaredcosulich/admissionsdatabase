@@ -1,0 +1,38 @@
+= form_for @enrollment do |f|
+  - if @enrollment.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@enrollment.errors.count, "error")} prohibited this enrollment from being saved:"
+      %ul
+        - @enrollment.errors.full_messages.each do |msg|
+          %li= msg
+
+  %br
+  %br
+  
+  = f.hidden_field :student_id
+  
+  .form-group
+    = f.label :start, "When did they enroll?"
+    = f.date_select :start, {start_year: 1996}, class: 'form-control'
+
+  %br
+  %br
+
+  .form-group
+    = f.label :end, "When did this enrollment end?"
+    = f.date_select :end, {start_year: 1996, include_blank: true}, class: 'form-control'
+
+  %br
+  %br
+
+  .form-group
+    = f.label :comments
+    = f.text_area :comments, class: 'form-control'
+
+  %br
+  %br
+
+    
+  .actions.form-group
+    = f.submit 'Save', class: 'btn btn-default'
+    = link_to 'Cancel', @family, class: 'btn btn-default'

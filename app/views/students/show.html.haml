@@ -2,8 +2,15 @@
 
 = render partial: 'students/info', locals: {student: @student}
 
+- if @student.enrollments.present?
+  %p
+    Enrollments:
+    = @student.enrollments.map { |enrollment| link_to(enrollment.info, edit_enrollment_path(enrollment, student_id: enrollment.student_id), title: enrollment.comments) }.join(', ').html_safe
+
 %p
   = link_to("Edit student", edit_family_student_path(@family, @student))
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  = link_to('Add enrollment', new_enrollment_path(student_id: @student.id))
   &nbsp; &nbsp; &nbsp; &nbsp; 
   = link_to('Add address', new_address_path(student_id: @student.id))
 

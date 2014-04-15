@@ -7,6 +7,7 @@ Admissionsdatabase::Application.routes.draw do
   end
   
   resources :addresses
+  resources :enrollments
   
   root 'welcome#index'
 end
