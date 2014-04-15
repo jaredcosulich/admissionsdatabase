@@ -60,9 +60,12 @@
 
 - if @family.students.present?  
   %h4 Students
-  - @family.students.each do |student|
-    = render partial: 'students/info', locals: {student: student}
-    = link_to("Show Student", family_student_path(@family, student))
+  %table
+    %tr
+      - @family.students.each do |student|
+        %td
+          = render partial: 'students/info', locals: {student: student}
+          = link_to("Show Student", family_student_path(@family, student))
     
     
     
