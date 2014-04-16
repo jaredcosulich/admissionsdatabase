@@ -16,7 +16,6 @@ gem 'sass-rails', '~> 4.0.0'
 gem 'sdoc', require: false, group: :doc
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
-gem 'unicorn'
 gem 'paperclip', '~> 3.0'
 gem 'rails_12factor', group: :production
 gem 'rails_autolink'
