@@ -5,7 +5,7 @@ gem 'awesome_print', group: [:development, :test]
 gem 'coffee-rails', '~> 4.0.0'
 gem 'database_cleaner'
 gem 'font-awesome-rails'
-gem 'foreman', group: [:development, :test]
+gem 'foreman', '0.61.0', group: [:development, :test]
 gem 'haml'
 gem 'haml-rails'
 gem 'jquery-rails'
